@@ -180,7 +180,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .vue-codemirror {
     height: 100%;
 }
