@@ -184,11 +184,11 @@ export default {
 .vue-codemirror {
     height: 100%;
 }
-.CodeMirror {
+.vue-codemirror >>> .CodeMirror {
     height: 100%;
     line-height: 2;
 }
-.CodeMirror-lines {
+.vue-codemirror >>> .CodeMirror-lines {
     padding: 0;
 }
 </style>
