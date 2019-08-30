@@ -8,20 +8,6 @@
     ],
     "homepage": "https://github.com/facade/code-editor",
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:facade/ignition.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:facade/flare-client-php.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:facade/ignition-contracts.git"
-        }
-    ],
     "require": {
         "php": "^7.1",
         "illuminate/support": " 5.8.*|^6.0",
