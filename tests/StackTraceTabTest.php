@@ -2,9 +2,8 @@
 
 namespace Facade\IgnitionTinkerTab\Tests;
 
-use Facade\CodeEditor\StackTraceTab;
-use Facade\IgnitionTinkerTab\TinkerTab;
 use PHPUnit\Framework\TestCase;
+use Facade\CodeEditor\StackTraceTab;
 
 class StackTraceTabTest extends TestCase
 {
