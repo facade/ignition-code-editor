@@ -2,6 +2,8 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/facade/ignition-code-editor.svg?style=flat-square)](https://packagist.org/packages/facade/ignition-code-editor)
 [![Build Status](https://img.shields.io/travis/facade/ignition-code-editor/master.svg?style=flat-square)](https://travis-ci.org/facade/ignition-code-editor)
+[![Quality Score](https://img.shields.io/scrutinizer/g/facade/ignition-code-editor.svg?style=flat-square)](https://scrutinizer-ci.com/g/facade/ignition-code-editor)
+[![StyleCI](https://github.styleci.io/repos/203854672/shield?branch=master)](https://github.styleci.io/repos/203854672)
 [![Total Downloads](https://img.shields.io/packagist/dt/facade/ignition-code-editor.svg?style=flat-square)](https://packagist.org/packages/facade/ignition-code-editor)
 
 This package adds a code editor to the stack trace tab of the [Ignition error page](http://flareapp.io/docs/ignition-for-laravel/introduction).
