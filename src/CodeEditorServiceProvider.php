@@ -10,33 +10,31 @@ use Facade\CodeEditor\Http\Controllers\SaveFileContentController;
 
 class CodeEditorServiceProvider extends ServiceProvider
 {
-
-	public function register()
-	{
-		if ($this->shouldRegisterFileContentsRoute()) {
-			Route::prefix('ignition-code-editor')->group(function () {
-            	Route::get('file-contents', FileContentsController::class);
-            	Route::put('file-contents', SaveFileContentController::class);
+    public function register()
+    {
+        if ($this->shouldRegisterFileContentsRoute()) {
+            Route::prefix('ignition-code-editor')->group(function () {
+                Route::get('file-contents', FileContentsController::class);
+                Route::put('file-contents', SaveFileContentController::class);
             });
         }
-	}
+    }
 
-	public function boot()
-	{
-		Ignition::tab(new StackTraceTab);
-	}
+    public function boot()
+    {
+        Ignition::tab(new StackTraceTab);
+    }
 
     protected function shouldRegisterFileContentsRoute(): bool
     {
-        if (!$this->app->environment('local')) {
+        if (! $this->app->environment('local')) {
             return false;
         }
 
-        if (!config('app.debug')) {
+        if (! config('app.debug')) {
             return false;
         }
 
         return true;
     }
-	
 }
