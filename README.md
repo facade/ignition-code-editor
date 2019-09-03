@@ -20,7 +20,7 @@ composer require facade/ignition-code-editor --dev
 
 ## Documentation
 
-You can find the documentation of this package at [the docs of Flare](http://flareapp.io.test/docs/ignition-for-laravel/first-party-extensions#ignition-code-editor).
+You can find the documentation of this package at [the docs of Flare](http://flareapp.io/docs/ignition-for-laravel/first-party-extensions#ignition-code-editor).
 
 
 ### Changelog
