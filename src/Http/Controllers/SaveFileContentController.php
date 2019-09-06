@@ -17,7 +17,7 @@ class SaveFileContentController extends Controller
 
         $this->ensureFileExistInProject($filePath);
 
-        file_put_contents($filePath, $request->get('value'));
+        file_put_contents($filePath, rtrim($request->get('value')).PHP_EOL);
 
         return ['saved' => true];
     }
