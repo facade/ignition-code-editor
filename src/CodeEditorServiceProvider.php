@@ -27,14 +27,6 @@ class CodeEditorServiceProvider extends ServiceProvider
 
     protected function shouldRegisterFileContentsRoute(): bool
     {
-        if (! $this->app->environment('local')) {
-            return false;
-        }
-
-        if (! config('app.debug')) {
-            return false;
-        }
-
-        return true;
+        return $this->app->environment('local') && config('app.debug');
     }
 }
