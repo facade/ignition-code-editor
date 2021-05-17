@@ -1,3 +1,5 @@
+**THIS PACKAGE HAS BEEN ABANDONED**
+
 # A code editor for Ignition
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/facade/ignition-code-editor.svg?style=flat-square)](https://packagist.org/packages/facade/ignition-code-editor)
